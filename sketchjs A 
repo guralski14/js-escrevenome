@@ -1,0 +1,14 @@
+function setup() {
+  createCanvas(500, 500);
+  background("black")
+}
+
+
+
+function draw() {
+  console.log(mouseIsPressed)
+  if(mouseIsPressed){
+    rect(mouseX,mouseY, 20,20)
+  stroke("blue")}
+  fill("red")
+
